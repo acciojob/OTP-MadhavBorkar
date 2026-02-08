@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f7fb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .otp-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      width: 320px;
+    }
+
+    #verification_heading {
+      margin-bottom: 8px;
+    }
+
+    #verification_subtext {
+      color: #666;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .code-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .code {
+      width: 40px;
+      height: 50px;
+      font-size: 24px;
+      text-align: center;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .code:focus {
+      border-color: #4f46e5;
+      box-shadow: 0 0 0 2px rgba(79,70,229,0.2);
+    }
